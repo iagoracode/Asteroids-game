@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PosicaoToroidal : MonoBehaviour
 {
-    const float MARGEM = 0.0f;
+    const float MARGEM = 1.0f;
     public Rigidbody2D meuRigidbody;
     // Start is called before the first frame update
     void Start()
